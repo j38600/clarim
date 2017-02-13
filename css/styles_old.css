@@ -1,0 +1,129 @@
+﻿body {
+	font: bold 0.8em Verdana;
+	margin: auto;
+	width: 800px;
+	text-align: center;
+	background-repeat:no-repeat;	
+	background-position:center top;
+	background-color: #006400;
+}
+
+table{
+	margin: auto;
+}
+
+img {
+	border-style: none;
+}
+
+a{
+    color: black;
+	text-align:center;
+}
+
+a:visited {
+    color: black;
+}
+
+input{
+	cursor: pointer;
+	vertical-align:middle;
+}
+
+input[type=radio]{
+	margin: 10px;
+}
+
+input[type=submit]{
+	border: 1px solid black;
+	height: 30px;
+	width: 200px;
+}
+
+form{
+	margin: 0px;
+}
+
+#contents{
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+#footer{
+	height: 40px;
+	clear: both;
+	bottom:0px;
+	position: fixed;
+	border-top: 2px solid blue;
+	width: 700px;
+	background-color: #006400;
+}
+
+#autor{
+	visibility:hidden;
+}
+
+.aviso{
+	display: block;
+	border: 2px dashed red; 
+	padding: 10px;
+	color: white;
+	margin-bottom: 20px;;	
+}
+
+.cron{
+	border-collapse:collapse;
+	width:700px;
+}
+
+.cron tbody{
+	background:white;
+}
+
+.cron td{
+	border-bottom: 1px solid black;
+	padding:5px;
+}
+
+.cron thead td{
+	border-bottom: 0px;
+	height: 40px;
+	width: 200px;
+	padding: 0px;
+}
+
+.cron a{
+	text-decoration: none;
+}
+
+.selected{
+	background: url('../imgs/tab_branca.png') no-repeat center;
+}
+
+.unselected{
+	background: url('../imgs/tab_preta.png') no-repeat center;
+}
+
+.botao_on {
+	background-color: white;
+	color: black;
+}
+
+.botao_off{
+	background-color: #8B814C;
+	color: white;
+}
+
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.fixed-size{
+    width: 200px;
+    height: 200px;
+}
